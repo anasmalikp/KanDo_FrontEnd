@@ -1,0 +1,33 @@
+.reg_main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.reg_logo{
+    width: 100%;
+    border: 1px solid black;
+}
+
+.reg_form{
+    width: 100%;
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.reg_formcont{
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+    width: 50%;
+}
+.textfld{
+    margin: 5px !important;
+}
