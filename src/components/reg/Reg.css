@@ -3,24 +3,34 @@
     height: 100vh;
     display: flex;
     justify-content: space-between;
+    background-image: url(https://images.wallpaperscraft.com/image/single/notebook_write_watch_67636_1920x1080.jpg);
+}
+.img_logo{
+    backdrop-filter: blur(20px);
+    border-radius: 50%;
+    padding: 100px;
 }
 
 .reg_logo{
     width: 100%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .reg_form{
     width: 100%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
     align-items: center;
     justify-content: center;
 
 }
 .reg_formcont{
-    border: 1px solid black;
-    border-radius: 10px;
+    /* border: 1px solid black; */
+    backdrop-filter: blur(20px);
+    border-radius: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
