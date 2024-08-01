@@ -6,7 +6,7 @@
 
 .home_sidebar{
     width: 20%;
-    border: 1px solid black;
+    /* border-right: 1px solid black; */
     height: 100vh;
 }
 .logo_cont{
@@ -22,4 +22,19 @@
 .home_myboard:hover{
     background: rgb(147, 147, 147);
     color: white;
+}
+.home_topbar{
+    background-color: white;
+    height: 50px;
+    width: 80vw;
+    display: flex;
+    align-items: center;
+}
+.home_main{
+    height: 100vh;
+    background-image: url(https://images.wallpaperscraft.com/image/single/abstract_colorful_paint_10383_1366x768.jpg);
+    background-size: 120% ;
+}
+.brdlist{
+    /* background-color: aqua; */
 }

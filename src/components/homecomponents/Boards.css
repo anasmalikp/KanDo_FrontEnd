@@ -7,9 +7,10 @@
     height: 20vh;
     margin: 10px;
     border-radius: 20px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     transition: 0.5s;
-    background-color: antiquewhite;
+    backdrop-filter: brightness(60%);
+    cursor: pointer;
 }
 
 .board_media > p{
@@ -20,6 +21,6 @@
 
 .board_cont:hover{
     scale: 105%;
-    background-color: rgb(108, 102, 96);
+    backdrop-filter: blur(30px), brightness(60%);
     color: white;
 }
